@@ -2,3 +2,9 @@
     display: flex;
     justify-content: space-between;
 }
+.hero {   
+    background-image: url("./assets/images/https://unsplash.com/photos/qD9xzm7yK9U");
+    background-size: cover;
+    background-position: "center;";
+   
+}
