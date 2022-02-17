@@ -8,3 +8,9 @@
 header {
     color: darkcyan;
 }
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
