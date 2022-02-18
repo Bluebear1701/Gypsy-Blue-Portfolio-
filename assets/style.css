@@ -1,12 +1,14 @@
-#contact {
+#contact ul {
     display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
         list-style: none;
     font-family: 'Times New Roman', Times, serif;
+    font: 125px;
     font-weight: bold;
     color: orchid;
+    text-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
 header {
     color: darkcyan;
