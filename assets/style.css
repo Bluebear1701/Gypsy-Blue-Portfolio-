@@ -2,10 +2,7 @@
     background-image: url("https://www.photos-public-domain.com/wp-content/uploads/2011/04/blue-linen-paper-texture.jpg;");
     background-size: cover;
     background-position: 80%;
-    background-attachment: fixed;
-    margin: 20px;
-    padding: 200;
-    box-sizing: border-box;
+    background-attachment: fixed;   
 }
 
 .body {
@@ -14,8 +11,7 @@
 header {
     color: darkcyan;
     background-color: rgba(116, 116, 245,0.5);
-    padding: 45px 45px; 
-    display: flex;
+    padding: 45px 45px;     
     flex-wrap: wrap;
     justify-content: center;
     font-size: 30px;
@@ -27,10 +23,25 @@ header nav ul {
     justify-content: center;
     font-size: 35px;
     align-items: center;
-}  
+} 
+.hero {
+     margin: auto;     
+    
+} 
+
+h1 {
+    text-align: center;
+}
 
 p {
     font-size: 20px;
+}
+
+.hero, img {
+   object-fit: contain cover scale-down;
+   /* max-width: 100%; */
+   width: 300px;
+   margin: auto;
 }
 #contact ul {
     display: flex;
