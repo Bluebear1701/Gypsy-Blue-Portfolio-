@@ -1,39 +1,43 @@
-header {
-    color: darkcyan;
-    background-color: rgb(116, 116, 245);
-    padding: 55px 105px;
+*{
     background-image: url("https://www.photos-public-domain.com/wp-content/uploads/2011/04/blue-linen-paper-texture.jpg;");
     background-size: cover;
     background-position: 80%;
     background-attachment: fixed;
+    margin: 20px;
+    padding: 200;
+    box-sizing: border-box;
 }
-header h1 {
+
+.body {
+    padding: 0 35px 35px 0;
+}
+header {
+    color: darkcyan;
+    background-color: rgba(116, 116, 245,0.5);
+    padding: 45px 45px; 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    font-size: 50px;
-    font-style: italic;
-    padding: 25px 0 10px 0;
-}
-
-header nav {
+    font-size: 30px;
+    font-style: italic;    
+}  
+header nav ul {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;        
-    font-size: 1.7vw;
-    padding: 25px 0 10px 0;
+    flex: wrap;
+    justify-content: center;
+    font-size: 35px;
+    align-items: center;
+}  
 
-}
-#about p {
-    font-size: 32px;
+p {
+    font-size: 20px;
 }
 #contact ul {
     display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
-        list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
     font-family: 'Times New Roman', Times, serif;
     font: 125px;
     font-weight: bold;
