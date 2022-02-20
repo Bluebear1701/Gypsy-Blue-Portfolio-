@@ -38,7 +38,7 @@ header h1 {
 h1 {
     text-align: center;
     display: block;
-    color: #063970;
+    color: teal;
 }
 
 /* hero style*/
@@ -64,10 +64,11 @@ h2 {
 /*hero styling done*/
 
 p {
-    color: #063992#063970;
+    color:#063970;
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    display: block;              
+    display: block; 
+    line-height: 1.5;             
 }
 
 .welcome    {
