@@ -27,6 +27,7 @@ nav {
     border-bottom: 2px solid rgb(4, 4, 139); 
 }
 header h1 {
+    font-size: 65px;
     text-align: center;
     display: block;
     color: rgb(3, 235, 235);
@@ -38,14 +39,13 @@ header h1 {
 h1 {
     text-align: center;
     display: block;
-    color: teal;
+    color: rgb(4, 4, 139);
+    font-size: 45px;
 }
 
 /* hero style*/
-h2 {
-    font-size: 35px;
-    display: flex;
-    display: inline-flex;
+.hero h2 {
+    font-size: 45px;  
     padding-top: 100px;
     color: rgb(29, 115, 117);
     text-align: center;
@@ -54,15 +54,15 @@ h2 {
 
 .hero {
    object-fit: contain cover;   
-   width: 500px;
+   width: 500px;   
    height: auto;
    margin:auto;
    padding-bottom: 10%; 
-   padding-right: 15%;
-   justify-content: center;   
+   padding-right: 15%;   
 }
 /*hero styling done*/
 
+/* about start*/
 p {
     color:#063970;
     font-size: 25px;
@@ -81,19 +81,24 @@ p {
 #about img {
     object-fit: contain cover scale-down;
     /* max-width: 100%; */
-    width: 100px;
+    width: 200px;
     margin: auto; 
-    padding-top: 25px; 
+    padding-top: 5%; 
     float: left 0;      
  }
 
-#projects img {
+ /*projects*/
+.run img {
     width: 300px;
-    margin: auto; 
-    padding-top: 25px; 
-      
-
+    margin: 0 auto; 
+    padding-top: 25px;   
 } 
+img {
+    margin:0 auto;
+}
+
+
+
 /*contact start*/
 #contact ul {
     display: flex;
