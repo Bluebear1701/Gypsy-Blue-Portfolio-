@@ -43,6 +43,7 @@ h1 {
 
 /* hero style*/
 h2 {
+    font-size: 35px;
     display: flex;
     display: inline-flex;
     padding-top: 100px;
@@ -63,8 +64,8 @@ h2 {
 /*hero styling done*/
 
 p {
-    color: #063970;
-    font-size: 20px;
+    color: #063992#063970;
+    font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: block;              
 }
@@ -85,6 +86,13 @@ p {
     float: left 0;      
  }
 
+#projects img {
+    width: 300px;
+    margin: auto; 
+    padding-top: 25px; 
+      
+
+} 
 /*contact start*/
 #contact ul {
     display: flex;
