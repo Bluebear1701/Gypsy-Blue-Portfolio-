@@ -26,11 +26,6 @@ header nav ul {
 nav {
     border-bottom: 2px solid rgb(4, 4, 139); 
 }
-/* header style end */
-.hero {
-     margin: 100%;      
-} 
-
 header h1 {
     text-align: center;
     display: block;
@@ -38,6 +33,9 @@ header h1 {
     text-shadow: 0 0 3px #6d2828;
 }
 
+/* header style end */
+
+/* hero style*/
 h1 {
     text-align: center;
     display: block;
@@ -53,6 +51,12 @@ h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.hero {
+   object-fit: contain cover;   
+   width: 200px;
+   margin: auto;    
+}
+
 p {
     color: #063970;
     font-size: 20px;
@@ -60,28 +64,20 @@ p {
     display: block;              
 }
 
-.hero {
-   object-fit: contain cover;   
-   width: 200px;
-   margin: auto;
-   float:inline-start;
-}
-
-img {
-    object-fit: contain cover scale-down;
-    /* max-width: 100%; */
-    width: 200px;
-    margin: auto;
-    float: left;
-    clear: both;
- }
-
 .welcome    {
     text-align: center;
     padding-bottom: 10px;
     border: #6d2828 double 2px;    
     background-color: lightblue;   
 }
+
+img {
+    object-fit: contain cover scale-down;
+    /* max-width: 100%; */
+    width: 200px;
+    margin: auto;          
+ }
+
 
 #contact ul {
     display: flex;
