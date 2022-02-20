@@ -95,12 +95,18 @@ p {
     padding-top: 25px;   
 } 
 
+
+
 .future img {
     position: relative;
     margin: 0 auto;
 }
 
-
+.projectimg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
 
 /*contact start*/
@@ -125,3 +131,9 @@ p {
 
 }
 
+@media screen and (max-width: 575px){
+    body {
+        width: 900px;
+    }
+    
+}
