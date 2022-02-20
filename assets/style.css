@@ -1,5 +1,5 @@
 *{
-    background-image: url("https://www.photos-public-domain.com/wp-content/uploads/2011/04/blue-linen-paper-texture.jpg;");
+    background-image: url(https://images.app.goo.gl/m57J68hX7PDDG35a9);
     background-size: cover;
     background-position: 80%;
     background-attachment: fixed;   
@@ -8,9 +8,9 @@
 .body {
     padding: 0 35px 35px 0;
 }
-header {
-    color: darkcyan;
-    background-color: rgba(116, 116, 245,0.5);
+/* header style */
+header {   
+    background-color: teal;
     padding: 45px 45px;     
     flex-wrap: wrap;
     justify-content: center;
@@ -18,31 +18,57 @@ header {
     font-style: italic;    
 }  
 header nav ul {
-    display: flex;
-    flex: wrap;
-    justify-content: center;
+    display: block;
+    flex: wrap;    
     font-size: 35px;
-    align-items: center;
+    align-items: center;    
 } 
+nav {
+    border-bottom: 2px solid rgb(4, 4, 139); 
+}
+/* header style end */
 .hero {
-     margin: auto;     
-    
+     margin: auto;      
 } 
 
+header h1 {
+    text-align: center;
+    display: block;
+    color: rgb(3, 235, 235);
+    text-shadow: 0 0 3px #6d2828;
+}
+
 h1 {
+    text-align: center;
+    display: block;
+    color: rgb(71, 30, 0);
+}
+
+h2 {
+    display: flex;
+    display: inline-flex;
+    padding-top: 100px;
+    color: rgb(3, 235, 235);
     text-align: center;
 }
 
 p {
+    color: rgb(71, 30, 0);
     font-size: 20px;
+    display: block;          
 }
 
 .hero, img {
    object-fit: contain cover scale-down;
    /* max-width: 100%; */
-   width: 300px;
+   width: 200px;
    margin: auto;
 }
+
+#about {
+
+}
+
 #contact ul {
     display: flex;
     flex-wrap: wrap;
@@ -52,7 +78,7 @@ p {
     font-family: 'Times New Roman', Times, serif;
     font: 125px;
     font-weight: bold;
-    color: orchid;
+    color: darkcyan;
     text-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
 
