@@ -23,9 +23,9 @@ header nav ul {
     font-size: 35px;
     align-items: center;    
 } 
-/*nav {
+nav {
     border-bottom: 2px solid rgb(4, 4, 139); 
-}*/
+}
 
 header h1 {
     font-size: 65px;
@@ -74,7 +74,7 @@ p {
 
 .welcome    {
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 10%;
     border: #6d2828 double 2px;    
     background-color: lightblue;   
 }
@@ -89,16 +89,19 @@ p {
  }
 
  /*projects*/
-.run img {
-    width: 300px;
-    margin: 0 auto; 
-    padding-top: 25px;   
+#run img {
+    width: 400px;
+    height: auto;
+    margin: 0 auto;      
 } 
-
-
-
-.future img {
-    position: relative;
+#horiseon img {
+    width: 200px;
+    height: auto;  
+    margin: 0 auto;
+}
+#future img {  
+    width: 200px;
+    height: auto;  
     margin: 0 auto;
 }
 
@@ -110,6 +113,10 @@ p {
 
 
 /*contact start*/
+#contact {  
+   
+    padding-top: 20%;
+}
 #contact ul {
     display: flex;
     flex-wrap: wrap;
@@ -131,9 +138,30 @@ p {
 
 }
 
+
 @media screen and (max-width: 575px){
-    body {
-        width: 900px;
+    .body{
+        display: block;
+    margin: 8px;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    }
+    .article { 
+        display: block;
     }
     
 }
+
+/*@media screen and (max-width: 768px) {
+    body{
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    body {
+        width: 100px;
+    }
+}*/
