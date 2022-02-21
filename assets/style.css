@@ -1,3 +1,10 @@
+:root {
+    --primary-color:rgb(4, 4, 139);
+    --seconday-color:#6d2828;
+    --terciary-color:#063970;
+}
+
+
 *{
     background-image: url("https://www.photos-public-domain.com/wp-content/uploads/2011/04/blue-linen-paper-texture.jpg;");
     background-size: cover;
@@ -24,7 +31,7 @@ header nav ul {
     align-items: center;    
 } 
 nav {
-    border-bottom: 2px solid rgb(4, 4, 139); 
+    border-bottom: 2px solid var(--primary-color); 
 }
 
 header h1 {
@@ -32,7 +39,7 @@ header h1 {
     text-align: center;
     display: block;
     color: rgb(3, 235, 235);
-    text-shadow: 0 0 3px #6d2828;
+    text-shadow: 0 0 3px var(--seconday-color);
 }
 
 /* header style end */
@@ -40,7 +47,7 @@ header h1 {
 h1 {
     text-align: center;
     display: block;
-    color: rgb(4, 4, 139);
+    color: var(--primary-color);
     font-size: 45px;
 }
 
@@ -65,7 +72,7 @@ h1 {
 
 /* about start*/
 p {
-    color:#063970;
+    color:var(--terciary-color);
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: block; 
@@ -75,7 +82,7 @@ p {
 .welcome    {
     text-align: center;
     padding-bottom: 10%;
-    border: #6d2828 double 2px;    
+    border: var(--seconday-color) double 2px;    
     background-color: lightblue;   
 }
 
@@ -126,7 +133,7 @@ p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
     font-weight: bold;
-    color: #063970;
+    color: var(--terciary-color);
     text-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
 
@@ -134,29 +141,36 @@ p {
 #contact li {
     font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #6d2828;
+    color: var(--seconday-color);
 
 }
 
 
-@media screen and (max-width: 575px){
-    .body{
-    width: 900px;    
+@media screen and (max-width: 980px) {
+    body {
+        width: auto;
     }
-    .article { 
+    .article {
         display: block;
+    }
+    .contact{
+        display: flexbox;
     }
     
 }
 
-/*@media screen and (max-width: 768px) {
-    body{
-        width: 600px;
+@media screen and (max-width: 768px) {
+  
+    .article {
+        display: block;
     }
 }
-
-@media screen and (max-width: 980px) {
-    body {
-        width: 100px;
+    
+@media screen and (max-width: 575px) {
+        .body{
+        width: 900px;    
+        }
+        .article { 
+            display: block;            
     }
-}*/
+}
