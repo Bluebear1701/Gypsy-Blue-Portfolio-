@@ -101,11 +101,13 @@ p {
     height: auto;
     margin: 0 auto;      
 } 
+
 #horiseon img {
     width: 200px;
     height: auto;  
     margin: 0 auto;
 }
+
 #future img {  
     width: 200px;
     height: auto;  
@@ -117,7 +119,7 @@ p {
     flex-direction: row;
     justify-content: space-around;
 }
-
+/*end projects/*
 
 /*contact start*/
 #contact {  
@@ -144,7 +146,6 @@ p {
     color: var(--seconday-color);
 
 }
-
 
 @media screen and (max-width: 980px) {
     body {
