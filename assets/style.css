@@ -103,18 +103,24 @@ p {
 } 
 
 #horiseon img {
-    width: 200px;
+    width: 300px;
     height: auto;  
     margin: 0 auto;
 }
 
 #future img {  
-    width: 200px;
+    width: 300px;
     height: auto;  
     margin: 0 auto;
 }
 
-.projectimg {
+#meet img {
+   width: 300px; 
+   height: auto;
+   margin: 0;
+}
+
+.project img {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
